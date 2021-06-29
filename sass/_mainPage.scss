@@ -14,10 +14,13 @@ main {
             background-color: #333;
             border: 3px solid #fff;
             margin: 20px;
-            padding: 35px 14px;
+            padding: 2.5rem;
+            font-size: 5rem;
             color: #fff;
             text-align: center;
             font-family: 'Press Start 2p', sans-serif;
+            display: block;
+            width: 25rem;
 
             &:focus {
                 outline: none;

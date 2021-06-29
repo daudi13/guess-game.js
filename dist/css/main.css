@@ -48,7 +48,7 @@ header .number {
   padding: 3rem;
   background-color: #fff;
   color: #333;
-  font-size: 3.5rem;
+  font-size: 5rem;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
 }
@@ -92,10 +92,13 @@ main .left .guess {
   background-color: #333;
   border: 3px solid #fff;
   margin: 20px;
-  padding: 35px 14px;
+  padding: 2.5rem;
+  font-size: 5rem;
   color: #fff;
   text-align: center;
   font-family: 'Press Start 2p', sans-serif;
+  display: block;
+  width: 25rem;
 }
 
 main .left .guess:focus {
