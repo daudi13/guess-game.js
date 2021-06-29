@@ -1,0 +1,44 @@
+header {
+    height: 35vh;
+    position: relative;
+    border-bottom: 4px solid #fff;
+    width: 100%;
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left:55%;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .between {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .again {
+        top: 10px;
+        left: 10px;
+        position: absolute;
+    }
+
+    .number {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding: 3rem;
+        background-color: #fff;
+        color: #333;
+        font-size: 3.5rem;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #333;
+}

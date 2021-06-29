@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+header {
+  height: 35vh;
+  position: relative;
+  border-bottom: 4px solid #fff;
+  width: 100%;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header .between {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+header .again {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+header .number {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 3rem;
+  background-color: #fff;
+  color: #333;
+  font-size: 3.5rem;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 25px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #333;
+}
+
+main {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .left .guess {
+  background-color: #333;
+  border: 3px solid #fff;
+  margin: 20px;
+  padding: 35px 14px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Press Start 2p', sans-serif;
+}
+
+main .left .guess:focus {
+  outline: none;
+}
+
+main .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+}
+
+main .right .label-score {
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */
