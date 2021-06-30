@@ -47,10 +47,11 @@ header .number {
   left: 50%;
   padding: 3rem;
   background-color: #fff;
-  color: #444;
+  color: #333;
   font-size: 5rem;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
+  text-align: center;
 }
 
 .btn {
@@ -89,7 +90,7 @@ main .left {
 }
 
 main .left .guess {
-  background-color: #333;
+  background-color: transparent;
   border: 3px solid #fff;
   margin: 20px;
   padding: 2.5rem;

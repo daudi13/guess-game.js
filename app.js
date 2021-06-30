@@ -14,7 +14,8 @@ let highscore = 0
 
 checkBtn.addEventListener('click', () => {
     const guess = Number(document.querySelector('.guess').value)
-    console.log(guess)
+    console.log(guess, secretNumber)
+
 
     if (!guess) {
         displayMessage('No number!');
@@ -22,6 +23,14 @@ checkBtn.addEventListener('click', () => {
 
     else if (guess === secretNumber) {
         displayMessage('correct Number');
+        numbre.innerHTML = secretNumber;
+        document.querySelector('body').style.backgroundColor = `green`;
+        numbre.style.width = `15rem`;
+
+        if (score > highscore) {
+            highscore = score;
+            document.querySelector('.highscore').innerHTML = highscore
+        }
     }
 
     else if (guess !== secretNumber) {
