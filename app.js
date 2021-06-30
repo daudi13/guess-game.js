@@ -31,6 +31,8 @@ checkBtn.addEventListener('click', () => {
             highscore = score;
             document.querySelector('.highscore').innerHTML = highscore
         }
+        
+        secretNumber = Math.trunc(Math.random() * 20) + 1;
     }
 
     else if (guess !== secretNumber) {
@@ -50,3 +52,12 @@ checkBtn.addEventListener('click', () => {
 function displayMessage(message) {
     document.querySelector('.message').textContent = message
 }
+
+againBtn.addEventListener('click', () => {
+    displayMessage('start guessing ....');
+    document.querySelector('body').style.backgroundColor = `#444`;
+    document.querySelector('.score').textContent = score;
+    doceumnt.querySelector('.number').style.width = `12rem`;
+    document.querySelector('.guess').innerHTML = '';
+    document.querySelector('.number').innerHTML = `?`;
+})
